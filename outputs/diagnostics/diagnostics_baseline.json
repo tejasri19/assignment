@@ -1,0 +1,44 @@
+{
+  "band_shift": [
+    {
+      "band": 0,
+      "source_mean": 0.12350161373615265,
+      "source_std": 0.040829092264175415,
+      "target_mean": 0.302114874124527,
+      "target_std": 0.06534048914909363,
+      "mean_shift": 0.17861326038837433,
+      "std_ratio": 1.6003410816192627
+    },
+    {
+      "band": 1,
+      "source_mean": 0.21795427799224854,
+      "source_std": 0.03665176406502724,
+      "target_mean": 0.3071574568748474,
+      "target_std": 0.05084246024489403,
+      "mean_shift": 0.08920317888259888,
+      "std_ratio": 1.3871759176254272
+    },
+    {
+      "band": 2,
+      "source_mean": 0.10463745146989822,
+      "source_std": 0.034570951014757156,
+      "target_mean": 0.2617972195148468,
+      "target_std": 0.05233864113688469,
+      "mean_shift": 0.15715977549552917,
+      "std_ratio": 1.5139480829238892
+    },
+    {
+      "band": 3,
+      "source_mean": 0.5264356732368469,
+      "source_std": 0.09916049987077713,
+      "target_mean": 0.3653310537338257,
+      "target_std": 0.07479370385408401,
+      "mean_shift": -0.16110461950302124,
+      "std_ratio": 0.7542690634727478
+    }
+  ],
+  "domain_classifier": {
+    "domain_classifier_accuracy": 1.0,
+    "proxy_a_distance": 2.0
+  }
+}

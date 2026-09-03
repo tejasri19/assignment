@@ -81,5 +81,4 @@ data/target_sahel/labels/<id>.npy  int64,   shape (H, W)   # only for a small
 
 Then just delete/skip `synthetic_data.generate_and_save_all()` in
 `run_pipeline.py` (or point `cfg.data_root` at your real folder) — nothing
-else needs to change. See [DATA_SOURCES.md](./DATA_SOURCES.md) for where to
-get real, freely available chips matching this exact scenario.
+else needs to change. 

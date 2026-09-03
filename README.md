@@ -1,8 +1,9 @@
-# pix_code — Iowa → Sahel domain-shift diagnosis & fix
 
 A land-cover segmentation model trained on temperate North America (Iowa)
 chips scores 0.85 mIoU there and drops to 0.41 mIoU on semi-arid (Sahel)
-chips from a different acquisition season, same sensor. This project:
+chips from a different acquisition season, same sensor. 
+
+This project:
 
 1. **Diagnoses** the failure with concrete, falsifiable evidence (per-class
    IoU, per-band radiometric shift, domain classifier separability, encoder

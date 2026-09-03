@@ -23,7 +23,7 @@ the *mechanism*, not just a demo.
 
 Create a virtual environment and install required packages:
 ```pip install -r requirements.txt
-```
+
 ## Run the full pipeline
 
 ```powershell
@@ -66,9 +66,8 @@ consistent across both domains since it's the same sensor):
 data/source_iowa/images/<id>.npy   float32, shape (C, H, W)
 data/source_iowa/labels/<id>.npy   int64,   shape (H, W)
 data/target_sahel/images/<id>.npy  float32, shape (C, H, W)
-data/target_sahel/labels/<id>.npy  int64,   shape (H, W)   # only for a small
-                                                            # held-out validation
-                                                            # set, NOT for training
+data/target_sahel/labels/<id>.npy  int64,   shape (H, W)   
+                                                            
 ```
 
 Then just delete/skip `synthetic_data.generate_and_save_all()` in

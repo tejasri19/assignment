@@ -22,7 +22,9 @@ the *mechanism*, not just a demo.
 ## Setup
 
 Create a virtual environment and install required packages:
+```
 pip install -r requirements.txt
+``
 
 
 ## Run the full pipeline

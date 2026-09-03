@@ -21,16 +21,9 @@ the *mechanism*, not just a demo.
 
 ## Setup
 
-```powershell
-cd pix_code
-.\venv\Scripts\Activate.ps1
+Create a virtual environment and install required packages:
 pip install -r requirements.txt
-```
 
-`scipy`, `scikit-learn`, and `matplotlib` are optional (diagnostics.py
-degrades gracefully without them: KS-test/A-distance falls back to a plain
-numpy logistic regression, and embedding plots are skipped with a warning).
-`numpy` and `torch` are required for everything else.
 
 ## Run the full pipeline
 
